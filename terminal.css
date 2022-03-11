@@ -1,0 +1,129 @@
+.noselect {
+	user-select: none;
+	cursor: default;
+}
+
+.redirect {
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+.redirect-responsive {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width: 50vw;
+	max-width: 25em;
+}
+#taskbar {
+    position:fixed;
+	left:0;
+	bottom:0;
+	width:min-content;
+	background-color:transparent;
+	color:#ffffff;
+	text-align:center;
+	margin-left:50%;
+	transform:translate(-50%, 50%);
+    display:flex;
+}
+
+#taskbar:before {
+	content:'';
+	position: fixed;
+	left:0;
+	width: 100%;
+	height: 100%;
+	margin-left: 0;
+	top: 15px;
+	border-bottom: 50px solid #ffffff;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	z-index: -1;
+	opacity: 0.3;
+}
+
+
+#taskbar li {
+	list-style-type: none;
+	align-items: center;
+}
+#taskbar li img {
+	position:relative;
+	padding:0.5em;
+	width: 100px;
+	height:100px;
+	top: -3em;
+	transition: all 0.3s;
+}
+
+#taskbar li:hover img {
+	transform: scale(1.7);
+	margin-left: 2em;
+	margin-right: 2em;
+	z-index: 2;
+	top: -6em;
+}
+
+#taskbar li:hover + li img,
+#taskbar li.prev img {
+	transform: scale(1.2);
+	margin: 0, 1.5em;
+	z-index: 1;
+}
+
+#topbar {
+	position:fixed;
+	left:0;
+	top:0;
+	width:95%;
+	margin-left:2.5%;
+	transform: translate(-2.5% 2.5%);
+	background: rgba(255,255,255,0.3);
+	color:#ffffff;
+	text-align:center;
+	font-size:1.5 em;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#topbar element {
+	vertical-align: center;
+	color: #ffffff;
+}
+
+#desktop {
+	margin-top:45px;
+	height:100%;
+	width: 100%;
+	display:grid;
+	gap: 20px;
+	grid-template-columns: repeat(auto-fill, 100px);
+	grid-auto-flow: column;
+}
+
+#desktop img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+#desktop .desktop-app {
+	font-size: 0.7em;
+	text-align: center;
+	padding: 5%;
+}
+
+#desktop .desktop-app p.noselect {
+	margin-top: -5%;
+	margin-bottom: 0%
+}
+
+
+#desktop .desktop-app.active-app {
+
+	outline: #ffffff dotted 1px;
+	background-color: rgba(0, 0, 255, 0.1);
+}
