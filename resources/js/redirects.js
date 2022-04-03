@@ -2,12 +2,17 @@ var RedirectList = {
 
     file:
     {
-        "039" : "https://pnc.st/s/pc/bd5eb302/fort-smith-ice-skating-rink-snowballs-jr-hockey-04-04-2051"
+        "39" : "https://pnc.st/s/pc/bd5eb302/fort-smith-ice-skating-rink-snowballs-jr-hockey-04-04-2051"
+    },
+
+    video:
+    {
+        "39" : "https://youtu.be/pOwfzd8uZlg"
     },
 
     news:
     {
-        "001": "https://www.getrevue.co/profile/podcube/issues/march-at-podcube-hq-1081247"
+        "1": "https://www.getrevue.co/profile/podcube/issues/march-at-podcube-hq-1081247"
     },
 
     page:
