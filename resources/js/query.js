@@ -20,11 +20,9 @@ function doRedirect() {
 
     redirect ? window.location.replace(redirect) : window.location.replace(DefaultLanding);
 
-    window.location.replace(DefaultLanding);
   } else {
     window.location.replace(DefaultLanding);
   }
-
 
 
 }
