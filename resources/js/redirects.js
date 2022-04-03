@@ -1,12 +1,15 @@
 var DefaultLanding = "https://pod.link/podcube"
 
 var RedirectList = {
+
 /*
 
                     ============ HOW TO USE =============
 
     THE FIRST PART IS WHAT COMES AFTER THE QUESTION MARK IN THE SHORTLINK.
     THE SECOND PART IS WHAT WEBSITE IT GOES TO.
+
+    DO EVERYTHING HERE IN LOWERCASE, BUT THE SHORTLINKS THEMSELVES AREN'T CASE SENSITIVE
 
     For example, if you put this code in:
 
@@ -54,17 +57,17 @@ LinkWord: "https://website.com",
 DOUBLE LINK:
 ----------------------------------------------------
 
-    LinkWord: {
-        Name1: "https://website1.com",
-        Name2: "https://website2.com"
+    EpisodeName: {
+        Audio: "https://website1.com",
+        Video: "https://website2.com"
     },
 
 ----------------------------------------------------
-(Will make two shortlinks: "PodCu.be?LinkWord=Name1" that goes to "website1.com" AND "PodCu.be?LinkWord=Name2" that goes to "website2.com")
+(Will make two shortlinks: "PodCu.be?EpisodeName=Audio" that goes to "website1.com" AND "PodCu.be?EpisodeName=Name2" that goes to "website2.com")
 
 */// ============================== PASTE NEW SHORTLINK CODE BELOW THIS LINE! ========================================= \\\*
 
-    HockeySprot:
+    e39:
     {
         audio: "https://pnc.st/s/pc/bd5eb302/fort-smith-ice-skating-rink-snowballs-jr-hockey-04-04-2051",
         video: "https://youtu.be/pOwfzd8uZlg"

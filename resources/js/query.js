@@ -8,26 +8,26 @@ function doRedirect() {
   var param = getParams();
 
   var PodKey = Object.keys(param);
-  var PodValue = param[PodKey];
+  var PodKey2 = param[PodKey];
 
+  console.log('PodKey is ' + PodKey + '\nPodKey2 is ' + PodKey2);
 
   if (typeof RedirectList[PodKey] !== 'undefined') {
 
-    if (PodValue == true){
+    if (PodKey2 == true){
       var redirect = RedirectList[PodKey];
     }
     else
     {
-      var redirect = RedirectList[PodKey][PodValue];
+      var redirect = RedirectList[PodKey][PodKey2];
     }
-
-    console.log('PodKey is ' + PodKey + '\nPodValue is ' + PodValue);
 
     console.log(redirect);
 
     redirect ? window.location.replace(redirect) : window.location.replace(DefaultLanding);
 
   } else {
+    console.log('Defaulting...');
     window.location.replace(DefaultLanding);
   }
 
