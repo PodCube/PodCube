@@ -1,6 +1,6 @@
 function adiabaticRedirect() {
 
-  setTimeout(() => { doRedirect(); }, 2000);
+  setTimeout(() => { doRedirect(); }, 2500);
 
 }
 
