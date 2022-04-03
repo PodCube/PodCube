@@ -78,6 +78,13 @@ DOUBLE LINK:
         1: "https://www.getrevue.co/profile/podcube/issues/march-at-podcube-hq-1081247"
     },
 
+    // PODCATCHERS
+    spotify: "https://open.spotify.com/show/2b9KFsTv1kW0IhXKnrNoov",
+    apple: "https://podcasts.apple.com/us/podcast/podcube/id1589888955",
+    podchaser: "https://www.podchaser.com/podcasts/podcube-1987127",
+
+
+
     // SOCIALS
     facebook: "https://facebook.com/podcube",
     youtube: "https://www.youtube.com/channel/UCjo7q-qSHg_8Zo8ln-W1X8w",
@@ -86,7 +93,9 @@ DOUBLE LINK:
     reddit: "https://reddit.com/user/PodCube",
 
     // OTHER STUFF
-    donate: "https://www.paypal.com/donate/?hosted_button_id=P93ZFPQW5MY9A"
+    donate: "https://www.paypal.com/donate/?hosted_button_id=P93ZFPQW5MY9A",
+    artlist: "https://artlist.io/PodCube-2581898" //referral link, if someone buys an artlist sub with it we get free months!
+
     
 }
 
