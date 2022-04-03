@@ -1,66 +1,27 @@
 <!doctype html>
 <html lang="us">
 <head>
-
-	<meta http-equiv="refresh" content="2; URL=https://pod.link/podcube"/>
-
-
-	
 	<meta charset="utf-8">
 	<title>PodCube Adiabatic Redirect</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&display=swap" rel="stylesheet">
-	<style>
-	html {margin: 0; height: 100%; overflow: hidden}
-	body{
-		font-family: "Lexend", sans-serif;
-		margin: 20px;
-		background: radial-gradient(circle at center, #498ece, #12255a)
-	}
-	h1 {
-		font-family: "Advent Pro", sans-serif;
-		margin:0;
-		text-align: center;
-		color:white;
-		vertical-align: center;
-		font-size:5vw;
-	}
-	
-	.redirect-responsive {
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-	width: 75vw;
-	position:absolute;
-	top: 50%;
-	left:50%;
-	transform: translate(-50%, -50%)
-	}
-
-	.redirect-responsive div img {
-		display:block;
-		margin-left: auto;
-		margin-right:auto;
-		max-width:50vw;
-	}
-
-	</style>
+	<link rel="stylesheet" href="resources/css/redirects.css">
 </head>
-<body>
+<body onload="doRedirect()">
 	<div class='redirect-responsive'>
-
 		<div style="position:fixed; top:0; left:50%; transform:translate(-50%, 0%) ">
 			<h1>PodCube™</h1>
 		</div>
-
 		<div>
-			<img src='rotator.gif'/>
+			<img src='../resources/rotator.gif'/>
 		</div>
-
-		<div style="position:fixed; bottom:0; left:50%; transform:translate(-50%, 0%)"><h1>Adiabatic Redirect</h1></div>
-		
+		<div style="position:fixed; bottom:0; left:50%; transform:translate(-50%, 0%)"><h1>Adiabatic Redirect</h1></div>	
 	</div>
+
+	<script type="text/JavaScript" src="resources/js/redirects.js"></script>
+	<script type="text/JavaScript" src="resources/js/query.js"></script>
+
 
 </body>
 </html>
