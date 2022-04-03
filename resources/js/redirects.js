@@ -1,6 +1,6 @@
 var RedirectList = {
 
-    file:
+    audio:
     {
         "39" : "https://pnc.st/s/pc/bd5eb302/fort-smith-ice-skating-rink-snowballs-jr-hockey-04-04-2051"
     },
