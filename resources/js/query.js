@@ -10,13 +10,20 @@ function doRedirect() {
   var PodKey = Object.keys(param);
   var PodValue = param[PodKey];
 
+
   if (typeof RedirectList[PodKey] !== 'undefined') {
 
-    var redirect = RedirectList[PodKey][PodValue]
+    if (PodValue == true){
+      var redirect = RedirectList[PodKey];
+    }
+    else
+    {
+      var redirect = RedirectList[PodKey][PodValue];
+    }
 
     console.log('PodKey is ' + PodKey + '\nPodValue is ' + PodValue);
 
-    console.log(RedirectList[PodKey][PodValue]);
+    console.log(redirect);
 
     redirect ? window.location.replace(redirect) : window.location.replace(DefaultLanding);
 
