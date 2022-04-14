@@ -5,7 +5,7 @@ function adiabaticRedirect() {
 }
 
 function doRedirect() {
-  var param = getParams();
+  var param = _decode();
 
   var PodKey = Object.keys(param);
   var PodKey2 = param[PodKey];
@@ -32,6 +32,21 @@ function doRedirect() {
   }
 
 
+}
+
+function _decode(){
+  var attempt = window.location.href;
+  try { 
+    var result = decodeURI(attempt);
+    console.log(result);
+    var params = getParams(result);
+    return params;
+  }
+  catch {
+    var params = getParams();
+    console.log('catch block');
+    return params;
+  }
 }
 
 
