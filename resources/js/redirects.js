@@ -73,6 +73,12 @@ DOUBLE LINK:
         video: "https://youtu.be/pOwfzd8uZlg"
     },
 
+    e40:
+    {
+        audio: "https://pnc.st/s/pc/e95f82b4/monty-spumante-s-winery-private-tastings-04-14-2051",
+        video: "https://youtu.be/0WQE0DsDmkY"
+    },
+  
     news:
     {
         1: "https://www.getrevue.co/profile/podcube/issues/march-at-podcube-hq-1081247"
