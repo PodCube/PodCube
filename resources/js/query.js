@@ -48,6 +48,9 @@ function getParams(url) {
 
     // stuff after # is not part of query string, so get rid of it
     queryString = queryString.split('#')[0];
+    
+    // Only take the first parameter? Hopefully?
+    queryString = queryString.split('&')[0];
 
     // split our query string into its component parts
     var arr = queryString.split('&');
