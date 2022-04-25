@@ -79,6 +79,12 @@ DOUBLE LINK:
         video: "https://youtu.be/0WQE0DsDmkY"
     },
   
+      dentist:
+    {
+        audio: "https://pnc.st/s/pc/14401342/gift-horse-dental-waiting-room-04-25-2010",
+        video: "https://youtu.be/sGimJCKQPGo"
+    },
+  
     news:
     {
         1: "https://www.getrevue.co/profile/podcube/issues/march-at-podcube-hq-1081247"
