@@ -87,7 +87,8 @@ DOUBLE LINK:
   
     news:
     {
-        1: "https://www.getrevue.co/profile/podcube/issues/march-at-podcube-hq-1081247"
+        1: "https://www.getrevue.co/profile/podcube/issues/march-at-podcube-hq-1081247",
+        2:"https://www.getrevue.co/profile/podcube/issues/april-at-podcube-hq-1172008"
     },
 
     // PODCATCHERS
